@@ -1,14 +1,39 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package parqueadero1;
 
-/**
- *
- * @author DELL
- */
+
 public class Propietario {
+    private char genero;
+    private int ebrio;
+    private boolean gafas;
+
+    public char funGenero() {
+        return genero;
+    }
+
+    public void metGenero(char genero) {
+        this.genero = genero;
+    }
+
+    public int funEbrio() {
+        return ebrio;
+    }
+
+    public void metEbrio(int ebrio) {
+        this.ebrio = ebrio;
+    }
+
+    public boolean funGafas() {
+        return gafas;
+    }
+
+    public void metGafas(boolean gafas) {
+        this.gafas = gafas;
+    }
+
+    
+    
     
 }
+
+    
+
